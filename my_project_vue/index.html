@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=0.5">-->
+    <title>my_project_vue</title>
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1195300_qaujhl1sjfr.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+      // 解决点击响应延时0.3s问题
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function () {
+          FastClick.attach(document.body);
+        }, false);
+      }
+      if(!window.Promise) {
+        document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      }
+      //点透
+      !(function () {
+        let aNodes = document.querySelectorAll('a');
+        let i = 0;
+        for (; i < aNodes.length; i++) {
+          aNodes[i].addEventListener('touchstart', function () {
+            window.location = this.href;
+          });
+        }
+      })();
+
+      //取消浏览器默认行为
+      document.addEventListener('touchstart', function (event) {
+        event.preventDefault(); //a元素不能进行跳转
+      });
+     // rem适配
+     //  (function () {
+     //    let width=document.documentElement.clientWidth
+     //    console.log(width)
+     //    var styleNode=document.createElement('style')
+     //    styleNode.innerText='html{font-size:'+width/10+'px !important;}'
+     //    document.head.appendChild(styleNode)
+     //  })()
+    </script>
+  </body>
+</html>
