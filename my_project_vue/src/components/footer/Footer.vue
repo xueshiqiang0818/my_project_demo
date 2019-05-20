@@ -37,23 +37,25 @@
       width 100%
       height 98px
       position fixed
+      left 0
       bottom 0
+      z-index 10
+      background #fff
       display flex
       justify-content space-around
       a
         display flex
         flex-direction column
         align-items center
-        font-size 28px
+        justify-content flex-end
         color #666
-        padding-top 10px
+        padding 10px 0
         &.activeFoot
           color #b4282d
-          &>i
-            color #b4282d
         i
-          font-size 40px
-          color #666
+          font-size 36px
+          margin-bottom 5px
+
 
 
 </style>

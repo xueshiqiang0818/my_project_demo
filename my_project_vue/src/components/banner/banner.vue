@@ -1,5 +1,5 @@
 <template>
-  <div class="swiper-container banner" >
+  <div class="swiper-container banner" id="swiper1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="https://yanxuan.nosdn.127.net/a1e7ea79a6221552eb0e00e5552bc74f.jpg?imageView&quality=75&thumbnail=750x0" alt="">
@@ -26,7 +26,7 @@
         <img src="https://yanxuan.nosdn.127.net/ac28c333645667553b74545c46ba5e7b.jpg?imageView&quality=75&thumbnail=750x0" alt="">
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-pagination" id="pagination1"></div>
   </div>
 </template>
 
@@ -36,10 +36,10 @@
   export default {
     name: "swiper",
     mounted(){
-      new Swiper('.swiper-container', {
+      new Swiper('#swiper1', {
         autoplay: true,//可选选项，自动滑动
         pagination: {
-          el: '.swiper-pagination',
+          el: '#pagination1',
         }
       })
     }
@@ -48,9 +48,11 @@
 
 <style lang="stylus" scoped>
   .banner
+    margin-top 147px
     .swiper-wrapper
       .swiper-slide
+        width 100%
         height 370px
-
-
+        img
+          width 100%
 </style>
