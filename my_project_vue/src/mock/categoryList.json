@@ -4,7 +4,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/b2bb514da7b9e126aadbb36d561919de.jpg",
-    "name": "居家",
+    "name": "居家专区",
     "id": 1005000,
     "type": 0,
     "subCateList": [
@@ -381,7 +381,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/135113d6a43536b717063413fa24d69a.jpg",
-    "name": "服装",
+    "name": "男女服装",
     "id": 1010000,
     "type": 0,
     "subCateList": [
@@ -757,7 +757,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/369bfa3656be0771e62b79d181b4433b.jpg",
-    "name": "电器",
+    "name": "电器专区",
     "id": 1043000,
     "type": 0,
     "subCateList": [
@@ -834,7 +834,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/14bb4a29498a0f93a1ea001f26fea1dd.jpg",
-    "name": "洗护",
+    "name": "洗护专区",
     "id": 1013001,
     "type": 0,
     "subCateList": [
@@ -994,7 +994,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/449327dfc891fd40426d7b601a8b1e99.jpg",
-    "name": "饮食",
+    "name": "饮食文化",
     "id": 1005002,
     "type": 0,
     "subCateList": [
@@ -1278,7 +1278,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/89f5056078016a30fa7c0a1180a84bdf.jpg",
-    "name": "餐厨",
+    "name": "餐厨专区",
     "id": 1005001,
     "type": 0,
     "subCateList": [
@@ -1393,7 +1393,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/8ab3c73fe90951a942e8b06d848f8743.jpg",
-    "name": "婴童",
+    "name": "母婴专区",
     "id": 1011000,
     "type": 0,
     "subCateList": [
@@ -1610,7 +1610,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "//nos.netease.com/yanxuan/72de912b6350b33ecf88a27498840e62.jpg",
-    "name": "文体",
+    "name": "文体专区",
     "id": 1019000,
     "type": 0,
     "subCateList": [
@@ -1876,7 +1876,7 @@
     "showIndex": 0,
     "superCategoryId": 0,
     "bannerUrl": "http://yanxuan.nosdn.127.net/d9f2d29a543a817a1af0bc682ba20ff2.png",
-    "name": "特色区",
+    "name": "特色专区",
     "id": 1065000,
     "type": 0,
     "subCateList": [

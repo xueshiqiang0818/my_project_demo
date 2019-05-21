@@ -12,7 +12,7 @@ const routes=[
     component: Category,
     meta:{showFooter: true},
     children:[
-      {path:'/category/imgList',component:categoryImgList}
+      {path:'/category',component:categoryImgList,meta:{showFooter: true}}
     ]
     },
   { path: '/goods', component: Goods ,meta:{showFooter: true}},
